@@ -52,7 +52,7 @@ export default class App extends React.Component {
     return (
       <Provider store={store}>
         <View style={{flex:1}}>
-          {this.state.loggedIn && <Header headerText='ICS Dashboard' isLogIn/>}
+          {this.state.loggedIn && <Header headerText='Demo' isLogIn/>}
           {!this.state.loggedIn && <Header headerText='Log In' />}
           {this.renderContent()}
         </View>
